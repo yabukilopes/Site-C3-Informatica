@@ -1,0 +1,219 @@
+::-webkit-scrollbar{
+    width: 20px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(55, 33, 255);
+}
+
+html{
+    scroll-behavior: smooth;
+
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: black;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.521);
+    position: fixed;
+    background: rgb(255, 255, 255);
+    z-index: 2;
+}
+
+nav{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-menu{
+    margin-top: 3px;
+    width: 220px;
+    
+}
+
+.lista-menu{
+    float: right;
+}
+
+
+.lista-menu li{
+    display: inline;
+
+}
+
+.lista-menu li a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 22px 4px 22px 4px;
+    transition: 0.3s;
+    text-shadow: 2px 2px 30px rgba(0, 0, 0, 0.575);
+    color: black;
+}
+
+.lista-menu li a:hover{
+    color: white;
+    background: rgb(0, 16, 153);
+}
+
+
+.inicio-section{
+    background: url(images/background1rescaling.png);
+    background-position: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+}
+
+.inicio-conteudo{
+    width: 800px;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.inicio-conteudo h2{
+    font-weight: bold;
+    padding-top: 40vh;
+    text-shadow: 4px 4px 35px black;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    transition: 1s;
+    
+}
+
+.inicio-conteudo h2:hover{
+    font-size: 63px
+}
+
+.inicio-conteudo p{
+    padding-top: 35px;
+    padding-bottom: 450px;
+    text-shadow: 2px 2px 10px black;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+#servicos-section{
+    background: url(images/background2.png);
+    background-position: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    scroll-margin: 60px;
+}
+
+.servicos-conteudo{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#servicos-section h3{
+    padding-top: 60px;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 4px 4px 20px black;;
+    color: rgb(138, 202, 255);
+    transition: 0.5s;
+}
+
+#servicos-section h3:hover{
+    font-size: 63px;
+}
+
+#servicos-section p{
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 10px black;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.blocos-section{
+    background: rgb(0, 89, 95);
+    padding-top: 40px;
+}
+
+.blocos-conteudo{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blocos-conteudo ul{
+    display: inline-block;
+}
+
+.blocos-conteudo ul li{
+    width: 350px;
+    height: 250px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(0, 101, 148);
+    color: white; 
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    transition: 0.8s;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.blocos-conteudo ul li:hover{
+    transform: scale(1.1);
+}
+
+.blocos-conteudo ul li h4{
+    font-weight: bold;
+    font-size: 1.3em;
+    padding-bottom: 10px;
+}
+
+.iconeservicos{
+    width: 100px;
+    padding-bottom: 10px;
+}
+
+/* rodapé */
+footer{
+    height: 200px;
+    background: rgb(255, 255, 255);
+}
+
+.footer-conteudo{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-footer{
+    padding-top: 33px;
+    padding-right: 10px;
+    width: 200px;
+    float: left;
+}
+
+th{
+    padding-top: 45px;
+    text-align: left;
+}
+
+td{
+    padding-right: 50px;
+}
+
+#removepadding {
+    padding-right: 0px;
+}
