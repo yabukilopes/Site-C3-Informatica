@@ -3,7 +3,7 @@
 }
 
 ::-webkit-scrollbar-thumb{
-    background: rgb(55, 33, 255);
+    background: rgb(255, 255, 255)
 }
 
 html{
@@ -32,8 +32,8 @@ nav{
 }
 
 .logo-menu{
-    margin-top: 3px;
-    width: 220px;
+    margin-top: 5px;
+    width: 200px;
     
 }
 
