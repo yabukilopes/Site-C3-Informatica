@@ -6,4 +6,6 @@
 
 <h2> Resultado Final </h2>
 
-![C3 Site](https://media.discordapp.net/attachments/477543821308198913/997958382780686406/unknown.png?width=675&height=468)
+https://yabukilopes.github.io/Site-C3-Informatica/
+
+![C3 Site](https://cdn.discordapp.com/attachments/514179396454842383/996518001127989418/unknown.png)
