@@ -2,7 +2,7 @@
 
 <h2> Sobre </h2>
 
-<p> O projeto consiste em um site para a empresa C3 Informática que presta serviços de TI. </p>
+<p> O projeto é para fins de estudo e consiste em um site para a empresa C3 Informática que presta serviços de TI. </p>
 
 <h2> Resultado Final </h2>
 
